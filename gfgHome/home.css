@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.mainTopic{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 30px;
+    font-size: large;
+}
+
+li{
+    list-style-type: none;
+}
+
+.div1{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.div2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainDiv{
+    display: flex;
+    height: 100vh;
+    gap: 7px;
+}
+
+@media screen and (max-width: 576px){
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div1,.div2{
+        width: 100%;
+    }
+}
+
+.div-Heading{
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.div-image{
+    background-color: green;
+    height: 70px;
+
+}
+
+
+.line{
+    border-top: 2px solid white
+}
