@@ -8,6 +8,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
     text-align: center;
+    background-color: #2b1d0e;
 }
 
 .nav-bar{
@@ -40,7 +41,7 @@ li{
     gap: 7px;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 658px){
     .mainDiv{
         display: flex;
         flex-direction: column;
@@ -63,6 +64,14 @@ li{
 
 }
 
+a{
+   color: inherit;
+   text-decoration: none;
+}
+
+a:hover{
+    background-color: green;
+}
 
 .line{
     border-top: 2px solid white
